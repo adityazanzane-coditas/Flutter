@@ -34,16 +34,14 @@ void main() {
 // 			person.display()
 // 		Output:	 My name is Agent Jack
 
-  // class Person{
-  //   String personName;
-  //   Person(this.personName);
-  //   void display(){
-  //     print("My name is $personName");
-  //   }
-  // }
+  class Person{
+    String personName;
+    Person(this.personName);
+    void display(){
+      print("My name is $personName");
+    }
+  }
 
-  // person = Person("Agent Jack");
-  // person.display();
 
 // Define a Dart program that uses a map to store the age of different people and prints the ages.
 // 		Input: Map<String, int> ages = {
