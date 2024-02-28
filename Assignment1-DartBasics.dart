@@ -41,7 +41,8 @@ void main() {
       print("My name is $personName");
     }
   }
-
+  var person = Person('Agent Jack');
+  person.display();
 
 // Define a Dart program that uses a map to store the age of different people and prints the ages.
 // 		Input: Map<String, int> ages = {
