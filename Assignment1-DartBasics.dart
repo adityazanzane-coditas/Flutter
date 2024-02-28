@@ -34,13 +34,14 @@ void main() {
 // 			person.display()
 // 		Output:	 My name is Agent Jack
 
-  class Person{
-    String personName;
-    Person(this.personName);
-    void display(){
-      print("My name is $personName");
-    }
-  }
+  //Should be outside void main()
+  // class Person{
+  //   String personName;
+  //   Person(this.personName);
+  //   void display(){
+  //     print("My name is $personName");
+  //   }
+  // }
   var person = Person('Agent Jack');
   person.display();
 
