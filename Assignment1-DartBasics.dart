@@ -68,10 +68,10 @@ void main() {
 
   double? divideNumber(int number1, int number2) {
     try {
-      if (number2 == 0) throw Exception('Cannot divide by zero.');
+      // if (number2 == 0) throw Exception('Cannot divide by zero.');
       return number1 / number2;
-    } catch (e) {
-      print(e);
+    } on IntegerDivisionByZeroException {
+      print('Cannot divide by zero.');
     }
     return null;
   }
